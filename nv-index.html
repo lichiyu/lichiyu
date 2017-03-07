@@ -10,7 +10,7 @@
 	    <link rel="stylesheet" href="Font-Awesome-3.2.1/Font-Awesome-3.2.1/css/font-awesome.min.css" />
 	        
 	</head>
-	<body ng-app="qidianApp" >
+	<body ng-app="qidianApp">
 		<div class="man-index">
 			<!--标签导航栏开始-->
 			<div class="man-index-tit">
@@ -20,10 +20,10 @@
 					</a>
 				</div>
 				<div class="man-index-tit-sex">
-					<a class="man red">
+					<a class="man " href="index.html">
 						<h5>男生</h5>
 					</a>
-					<a class="nv" href="nv-index.html">
+					<a class="nv red" ">
 						<h5>女生</h5>
 					</a>
 				</div>
@@ -358,7 +358,7 @@
 			<!--------广告结束------->
 			<!---------------新书抢险看开始----------->
 			
-			<div class="man-index-hot" ng-controller="shujuController">
+			<div class="man-index-hot">
 				<div class="man-index-hot-tit">
 					<h3>新书抢鲜</h3>
 					<span>24小时热销新书</span>
@@ -369,31 +369,74 @@
 				</div>
 				<div class="man-index-new-list">
 					<ul class="man-index-new-list-ul" >
-						<li ng-repeat="item in data">
+						<li>
 							<a href="#">
 								<img src="img/man_index/24.jpg" />
 								<div class="man-index-new-list-xq">
-									<h4>{{item.bName}}</h4>
-									<p>{{item.desc}}</p>
+									<h4>小说名称</h4>
+									<p>简介</p>
 									<div class="man-index-new-list-js">
 										<div class="man-index-new-list-name">
-											<span><i></i>{{item.bAuth}}</span>
+											<span><i></i>辰东</span>
 										</div>
 										<div class="man-index-new-list-type">
 											<span>
-												<em class="man-index-new-list-type-em">{{item.cat}}</em>
-												<em class="man-index-new-list-type-em reds">{{item.state}}</em>
-												<em class="man-index-new-list-type-em blue">{{item.cnt}}</em>
+												<em class="man-index-new-list-type-em">类型</em>
+												<em class="man-index-new-list-type-em reds">连载</em>
+												<em class="man-index-new-list-type-em blue">字数</em>
 											</span>
 										</div>
 									</div>
 								</div>
 							</a>
 						</li>
+						<li>
+							<a href="#">
+								<img src="img/man_index/24.jpg" />
+								<div class="man-index-new-list-xq">
+									<h4>小说名称</h4>
+									<p>简介</p>
+									<div class="man-index-new-list-js">
+										<div class="man-index-new-list-name">
+											<span><i></i>辰东</span>
+										</div>
+										<div class="man-index-new-list-type">
+											<span>
+												<em class="man-index-new-list-type-em">类型</em>
+												<em class="man-index-new-list-type-em reds">连载</em>
+												<em class="man-index-new-list-type-em blue">字数</em>
+											</span>
+										</div>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/man_index/24.jpg" />
+								<div class="man-index-new-list-xq">
+									<h4>小说名称</h4>
+									<p>简介</p>
+									<div class="man-index-new-list-js">
+										<div class="man-index-new-list-name">
+											<span><i></i>辰东</span>
+										</div>
+										<div class="man-index-new-list-type">
+											<span>
+												<em class="man-index-new-list-type-em">类型</em>
+												<em class="man-index-new-list-type-em reds">连载</em>
+												<em class="man-index-new-list-type-em blue">字数</em>
+											</span>
+										</div>
+									</div>
+								</div>
+							</a>
+						</li>
+					</ul>
 					
-		             </ul>
-		            </div>
-          	</div>
+				</div>
+			</div>
+			
 			<!-------------------新书抢先看结束------>
 			
 			<!-----------------畅销完本开始------------->
@@ -468,7 +511,6 @@
 											</span>
 										</div>
 									</div>
-								
 								</div>
 							</a>
 						</li>
@@ -683,7 +725,19 @@
 		<script type="text/javascript" src="rx/rx.js" ></script>
 		<script type="text/javascript" src="tj/tj.js" ></script>
 		<script type="text/javascript" src="app.js" ></script>
-		
+		<!--<script>
+			
+			var qidianApp=angular.module("qidianApp",[]).controller("qidianController",["$scope","$http",function($scope,$http){
+				$http({
+					method:"get",
+					url:"data.json"
+					
+				}).then(function(data){
+					
+				})
+				
+			}])
+		</script>-->
 		
 	</body>
 </html>
