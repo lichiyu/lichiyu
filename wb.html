@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>完本小说排行榜_好看的完本小说下载网_起点中文网</title>
+	<link rel="stylesheet" href="css/base.css" />
+	<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="Font-Awesome-3.2.1/Font-Awesome-3.2.1/css/font-awesome.css" />
+	    <link rel="icon" type="image/x-icon" href="//qidian.gtimg.com/qdm/img/favicon.0.50.ico">
+		
+	</head>
+	<body ng-app="mfApp" ng-controller="mfController">
+			<div class="classification-conter">
+			<div class="classification-index-tit">
+				<div class="classification-index-tit-loge">
+					<a href="index.html">
+						<i class=" icon-angle-left"></i>完本
+						
+					</a>
+					
+				</div>
+				<div class="classification-index-tit-sex">
+					<div class="classification red">
+						<h5>男生</h5>
+					</div>
+					<div class="nv ">
+						<h5>女生</h5>
+					</div>
+				</div>
+				<div class="classification-index-tit-icon">
+					<a class="classification-idnex-tit-icon-person" href="#">
+						<i class="icon-search"></i>
+					</a>
+					<a class="classification-index-tit-icon-book" href="#">
+						<i class="icon-align-justify"></i>
+					</a>	
+				</div>
+			</div>
+			
+		</div>
+	<!----------------------标题导航栏--------------->
+		
+			<div class="man-index-hot">
+				<div class="man-index-hot-tit">
+					<h3>影视同期</h3>
+					<span>火热影视原著</span>
+					
+				</div>
+				<div class="man-index-hot-side">
+					<ul class="man-index-hot-side-ul" >
+						<li>
+							<a href="#">
+								<img src="img/man_index/9.jpg" />
+								<h5>我的1979</h5>
+								<p >
+							
+									<span class="gray">争斤论两花花帽</span>
+								</p>
+								
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/man_index/11.jpg" />
+								<h5>都市猎人</h5>
+								<p >
+							
+									<span class="gray">都市猎人</span>
+								</p>
+								
+							</a>
+						</li><li>
+							<a href="#">
+								<img src="img/man_index/12.jpg" />
+								<h5>天幕神捕</h5>
+								<p >
+							
+									<span class="gray">东城令</span>
+								</p>
+								
+							</a>
+						</li><li>
+							<a href="#">
+								<img src="img/man_index/13.jpg" />
+								<h5>重生之我是boss</h5>
+								<p >
+							
+									<span class="gray">不是浮云</span>
+								</p>
+								
+							</a>
+						</li><li>
+							<a href="#">
+								<img src="img/man_index/14.jpg" />
+								<h5>调教大宋</h5>
+								<p >
+							
+									<span class="gray">苍山月</span>
+								</p>
+								
+							</a>
+						</li><li>
+							<a href="#">
+								<img src="img/man_index/15.jpg" />
+								<h5>永恒国度</h5>
+								<p >
+							
+									<span class="gray">孤独漂流</span>
+								</p>
+								
+							</a>
+						</li><li>
+							<a href="#">
+								<img src="img/man_index/16.jpg" />
+								<h5>武侠世界大明星</h5>
+								<p >
+							
+									<span class="gray">殊彦</span>
+								</p>
+								
+							</a>
+						</li>
+					</ul>
+					
+				</div>
+			</div>
+			
+			<div class="man-index-hot">
+				<div class="man-index-hot-tit">
+					<h3>经典必读</h3>
+					
+					<a>更多
+							<i class="icon-angle-right"></i>
+					</a>
+				
+				</div>
+				<div class="man-index-new-list">
+					<ul class="man-index-new-list-ul" >
+						<li ng-repeat="item in data">
+							<a href="#">
+								<img src="img/man_index/16.jpg" />
+								<div class="man-index-new-list-xq">
+									<h4>{{item.bName}}</h4>
+									<p>{{item.desc}}</p>
+									<div class="man-index-new-list-js">
+										<div class="man-index-new-list-name">
+											<span><i></i>{{item.bAuth}}</span>
+										</div>
+										<div class="man-index-new-list-type">
+											<span>
+												<em class="man-index-new-list-type-em">{{item.cat}}</em>
+												<em class="man-index-new-list-type-em reds">{{item.state}}</em>
+												<em class="man-index-new-list-type-em blue">{{item.cnt}}</em>
+											</span>
+										</div>
+									</div>
+								</div>
+							</a>
+						</li>
+					</ul>
+					
+				</div>
+			</div>
+			
+			<div class="man-index-hot">
+				<div class="man-index-hot-tit">
+					<h3>大神完本</h3>
+					
+					<a>更多
+							<i class="icon-angle-right"></i>
+					</a>
+				
+				</div>
+				<div class="man-index-new-list">
+					<ul class="man-index-new-list-ul" >
+						<li ng-repeat="item in data">
+							<a href="#">
+								<img src="img/man_index/25.jpg" />
+								<div class="man-index-new-list-xq">
+									<h4>{{item.bName}}</h4>
+									<p>{{item.desc}}</p>
+									<div class="man-index-new-list-js">
+										<div class="man-index-new-list-name">
+											<span><i></i>{{item.bAuth}}</span>
+										</div>
+										<div class="man-index-new-list-type">
+											<span>
+												<em class="man-index-new-list-type-em">{{item.cat}}</em>
+												<em class="man-index-new-list-type-em reds">{{item.state}}</em>
+												<em class="man-index-new-list-type-em blue">{{item.cnt}}</em>
+											</span>
+										</div>
+									</div>
+								</div>
+							</a>
+						</li>
+					</ul>
+					
+				</div>
+			</div>
+			
+			<div class="man-index-hot">
+				<div class="man-index-hot-tit">
+					<h3>畅销完本</h3>
+					
+					<a>更多
+							<i class="icon-angle-right"></i>
+					</a>
+				
+				</div>
+				<div class="man-index-new-list">
+					<ul class="man-index-new-list-ul" >
+						<li ng-repeat="item in data">
+							<a href="#">
+								<img src="img/man_index/37.jpg" />
+								<div class="man-index-new-list-xq">
+									<h4>{{item.bName}}</h4>
+									<p>{{item.desc}}</p>
+									<div class="man-index-new-list-js">
+										<div class="man-index-new-list-name">
+											<span><i></i>{{item.bAuth}}</span>
+										</div>
+										<div class="man-index-new-list-type">
+											<span>
+												<em class="man-index-new-list-type-em">{{item.cat}}</em>
+												<em class="man-index-new-list-type-em reds">{{item.state}}</em>
+												<em class="man-index-new-list-type-em blue">{{item.cnt}}</em>
+											</span>
+										</div>
+									</div>
+								</div>
+							</a>
+						</li>
+					</ul>
+					
+				</div>
+			</div>
+		<!-----------------------结尾部分-------------------->
+			<div class="classification-foot">
+		<strong>登录后获得更多特色功能</strong>
+		<span class="char-dot">·</span>
+		<a href="#">立即登录</a>
+		
+	</div>
+	<div class="classification-foot-link">
+		<a href="#">客户端</a>
+		<a href="#">触屏版</a>
+		<a href="#">电脑版</a>
+		<a href="#">帮助</a>
+		<a href="#">反馈</a>
+		
+	</div>
+	<div class="footer-copy">
+       copyright © 2002-2017 m.qidian.com
+    </div>
+			
+			<!---------------------结尾----------------->
+		<script type="text/javascript" src="js/angular.js" ></script>
+		<script type="text/javascript" src="js/angular-route.js" ></script>
+		<script type="text/javascript" src="js/wb.js" ></script>
+	</body>
+</html>
