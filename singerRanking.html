@@ -1,0 +1,36 @@
+<div class="ranking_bd">
+		<ul>
+			<li ng-repeat="item in data.data.list">
+				<a href="#/singer/{{all}}/{{item.Fsinger_mid}}">
+					<div class="bd_img_left" style="background-image: url(//y.gtimg.cn/music/photo_new/T001R150x150M000{{item.Fsinger_mid}}.jpg?max_age=2592000);">
+						<!--<img ng-src="//y.gtimg.cn/music/photo_new/T001R150x150M000{{item.Fsinger_mid}}.jpg?max_age=2592000" alt="">-->
+					</div>
+					<div class="bd_img_content">
+						<p class="bd_img_content_text">
+							{{item.Fsinger_name}}
+						</p>
+					</div>
+				</a>
+			</li>
+		</ul>
+</div>
+
+<!--底部-->
+<div class="footer">
+	<div class="footer_logo"><p>QQ音乐</p></div>
+	<p class="footer_copyright">Copyright © 1998 - 2016 Tencent. All Rights Reserved.</p>
+</div>
+<!--底部-->
+
+<!--动画-->
+<div id="loading" ng-if="ngIf">
+<div id="loading-center">
+<div id="loading-center-absolute">
+<div class="object" id="object_four"></div>
+<div class="object" id="object_three"></div>
+<div class="object" id="object_two"></div>
+<div class="object" id="object_one"></div>
+</div>
+</div>
+</div>
+

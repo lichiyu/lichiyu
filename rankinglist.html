@@ -1,0 +1,54 @@
+<div class="header">
+	<span></span>
+</div>
+<nav class="nav">
+	<a href="#/carousel" class="">推荐</a>
+	<a href="#/rankinglist" class="current">排行榜</a>
+	<a href="#/singer" class="">歌手</a>
+	<a href="#/search" class="">搜索</a>
+</nav>
+<div class="mod_topic">
+	<ul>
+	    <li class="mod_topic_li" ng-repeat="item in data.topList">
+	    	<a href="#/rankinglist/{{item.id}}" class="mod_topic_a">
+	        <div class="topic_main">
+	            <div class="topic_info">
+	            	<a href="javascript:;" class="topic_media">
+		                <img src="{{item.picUrl}}">
+		                <span class="listen_count"><i class="icon icon_listen"></i>{{item.listenCount}}</span>
+		            </a>
+	                <div class="topic_cont">
+	                    <h3 class="topic_tit">{{item.topTitle}}</h3>
+	                    <p>1<span class="text_name">{{item.songList[0].songname}}</span>{{item.songList[0].singername}}</p>
+	                    <p>2<span class="text_name">{{item.songList[1].songname}}</span>{{item.songList[1].singername}}</p>
+	                    <p>3<span class="text_name">{{item.songList[2].songname}}</span>{{item.songList[2].singername}}</p>
+	                </div>
+	                <i class="topic_arrow"></i>
+	            </div>
+	        </div>
+	        </a>
+	    </li>
+	    
+	    
+	</ul>
+	<p class="topic_more"><a href="javascript:;">每天都有好心情!</a></p>
+</div>
+
+<!--底部-->
+<div class="footer">
+	<div class="footer_logo"><p>QQ音乐</p></div>
+	<p class="footer_copyright">Copyright © 1998 - 2016 Tencent. All Rights Reserved.</p>
+</div>
+<!--底部-->
+
+<!--动画-->
+<div id="loading" ng-if="ngIf">
+<div id="loading-center">
+<div id="loading-center-absolute">
+<div class="object" id="object_four"></div>
+<div class="object" id="object_three"></div>
+<div class="object" id="object_two"></div>
+<div class="object" id="object_one"></div>
+</div>
+</div>
+</div>
