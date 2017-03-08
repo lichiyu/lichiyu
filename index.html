@@ -1,689 +1,584 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-	    <title>起点中文网_阅文集团旗下网站</title>
-	    <link rel="icon" type="image/x-icon" href="//qidian.gtimg.com/qdm/img/favicon.0.50.ico">
-	    <link rel="stylesheet" href="css/base.css" />
-	    <link rel="stylesheet" href="css/index.css" />
-	    <link rel="stylesheet" href="Font-Awesome-3.2.1/Font-Awesome-3.2.1/css/font-awesome.min.css" />
-	        
+		<meta charset="utf-8" />
+		<title>QQ音乐</title>
+		<link rel="stylesheet" href="css/mod-base.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<script src="js/jquery-1.11.0.js"></script>
+		
+		
 	</head>
-	<body ng-app="qidianApp" >
-		<div class="man-index">
-			<!--标签导航栏开始-->
-			<div class="man-index-tit">
-				<div class="man-index-tit-loge">
-					<a href="index.html">
-						<span></span>
-					</a>
-				</div>
-				<div class="man-index-tit-sex">
-					<a class="man red">
-						<h5>男生</h5>
-					</a>
-					<a class="nv" href="nv-index.html">
-						<h5>女生</h5>
-					</a>
-				</div>
-				<div class="man-index-tit-icon">
-					<a class="man-idnex-tit-icon-person" href="denglu.html">
-						<i class="icon-user"></i>
-					</a>
-					<a class="man-index-tit-icon-book" href="#">
-						<i class="icon-tasks"></i>
-					</a>	
-				</div>
-			</div>
-			
-			<!--标签导航栏结束-->
-			<!--轮播图开始-->
-			<div class="man-index-side">
-                <ul class="clearfix">
-                    
-                   
-                    <li>
-                        <a href="#">
-                            <img src="img/man_index/4.jpg" alt="" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="img/man_index/0.jpg" alt="" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="img/man_index/1.jpg" alt="" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="img/man_index/2.jpg" alt="" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="img/man_index/4.jpg" alt="" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="img/man_index/0.jpg" alt="" />
-                        </a>
-                    </li>
-                    
-                   
-                </ul>
-                <ul>
-                    <li class="now"></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    
-                </ul>
-            </div>
-			<!--轮播图结束-->
-				
-							<!--搜索栏开始-->
-			<div class="man-index-search">
-				<a href="#">
-					<i class="icon-search"></i>
-					<span>道君</span>
-				</a>
-			</div>
-			
-			<!--搜索栏结束-->
-			<!--图标导航栏开始-->
-			<div class="man-index-nav">
-				<a href="classification.html">
-					<i class="man-index-nav-fl"></i>
-					<span>分类</span>
-				</a>
-				<a href="phb.html">
-					<i class="man-index-nav-phb"></i>
-					<span>排行榜</span>
-				</a>
-				<a href="mf.html">
-					<i class="man-index-nav-mf"></i>
-					<span>免费</span>
-				</a>
-				<a href="wb.html">
-					<i class="man-index-nav-wb"></i>
-					<span>完本</span>
-				</a>
-				<a href="#ds">
-					<i class="man-index-nav-ds"></i>
-					<span>大神</span>
-				</a>
-				
-			</div>
-			
-			
-			<!--图标导航栏结束-->
-			<!--热门图书开始-->
-			<div class="man-index-hot">
-				<div class="man-index-hot-tit">
-					<h3>热门小说</h3>
-					<span>起点编辑推荐</span>
-					
-				</div>
-				<div class="man-index-hot-side">
-					<ul class="man-index-hot-side-ul" >
-						<li>
-							<a href="#">
-								<img src="img/man_index/9.jpg" />
-								<h5>我的1979</h5>
-								<p >
-							
-									<span class="gray">争斤论两花花帽</span>
-								</p>
-								
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="img/man_index/11.jpg" />
-								<h5>都市猎人</h5>
-								<p >
-							
-									<span class="gray">都市猎人</span>
-								</p>
-								
-							</a>
-						</li><li>
-							<a href="#">
-								<img src="img/man_index/12.jpg" />
-								<h5>天幕神捕</h5>
-								<p >
-							
-									<span class="gray">东城令</span>
-								</p>
-								
-							</a>
-						</li><li>
-							<a href="#">
-								<img src="img/man_index/13.jpg" />
-								<h5>重生之我是boss</h5>
-								<p >
-							
-									<span class="gray">不是浮云</span>
-								</p>
-								
-							</a>
-						</li><li>
-							<a href="#">
-								<img src="img/man_index/14.jpg" />
-								<h5>调教大宋</h5>
-								<p >
-							
-									<span class="gray">苍山月</span>
-								</p>
-								
-							</a>
-						</li><li>
-							<a href="#">
-								<img src="img/man_index/15.jpg" />
-								<h5>永恒国度</h5>
-								<p >
-							
-									<span class="gray">孤独漂流</span>
-								</p>
-								
-							</a>
-						</li><li>
-							<a href="#">
-								<img src="img/man_index/16.jpg" />
-								<h5>武侠世界大明星</h5>
-								<p >
-							
-									<span class="gray">殊彦</span>
-								</p>
-								
-							</a>
-						</li>
+	<body>
+		<div class="mod_header">
+			<div class="mod_index">
+				<div class="mod_header_up">
+					<h1 class="mod_header_logo"><a href="index.html"><img src="img/mod-logo.png"/></a></h1>
+					<ul>
+						<li><a href="index.html">音乐馆</a></li>
+						<li><a href="#">我的音乐</a></li>
+						<li><a href="down/dynamic.html">下载客户端</a></li>
+						<li><a href="#">VIP</a></li>
 					</ul>
-					
-				</div>
-			</div>
-			<!--热门图书结束-->
-			<!--点击按钮开始-->
-			<div class="man-index-btn">
-				
-				<a href="#" class="man-index-btn-newbook">
-					新书推荐
-				</a>
-				<a href="#" class="man-index-btn-sanjiang">
-					三江<span>.</span>网文新风
-				</a>
-			</div>
-			<!--点击按钮结束-->
-			<!-------限时免费开始-------->
-			<div class="man-index-hot">
-				<div class="man-index-hot-tit">
-					<h3>限时免费</h3>
-					<span class="sk_time">
-						        <em>0</em>
-                                <em>0</em>
-                                <em>:</em>
-                                <em>0</em>
-                                <em>0</em>
-                                <em>:</em>
-                                <em>0</em>
-                                <em>0</em>
-						
-					</span>
-					<a>更多
-							<i class="icon-angle-right"></i>
-					</a>
-				</div>
-				<div class="man-index-hot-side">
-					<ul class="man-index-hot-side-ul" >
-						<li>
-							<a href="#">
-								<img src="img/man_index/55.jpg" />
-								<h5>控球先生</h5>
-								<p >
-							
-									<span class="gray">华晓鸥</span>
-								</p>
-								
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="img/man_index/56.jpg" />
-								<h5>从笑星走向巨星</h5>
-								<p >
-							
-									<span class="gray">纵马昆仑</span>
-								</p>
-								
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="img/man_index/57.jpg" />
-								<h5>原始人都惊呆了</h5>
-								<p >
-							
-									<span class="gray">千书过</span>
-								</p>
-								
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="img/man_index/58.jpg" />
-								<h5>无敌升级王</h5>
-								<p >
-							
-									<span class="gray">可爱内内</span>
-								</p>
-								
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="img/man_index/23.jpg" />
-								<h5>老九门</h5>
-								<p >
-							
-									<span class="gray">南派三叔</span>
-								</p>
-								
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="img/man_index/59.jpg" />
-								<h5>重生之文娱全球</h5>
-								<p >
-							
-									<span class="gray">一念百花开</span>
-								</p>
-								
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="img/man_index/60.jpg" />
-								<h5>未来漂流瓶</h5>
-								<p >
-							        <span class="gray">甞一</span>
-									
-								</p>
-								
-							</a>
-						</li>
-					</ul>
-					
-				</div>
-			</div>
-			
-			
-			<!--限时免费开始-->
-			<!--排行榜开始-->
-			<div class="man-index-hot">
-				<div class="man-index-hot-tit">
-					<h3>排行榜</h3>
-					
-					<a href="#">更多
-							<i class="icon-angle-right"></i>
-					</a>
-				</div>
-				<div class="man-index-ph">
-					<div class="man-index-ph-nav">
-						<a  href="#/rxb"class="rxb">热销榜</a>
-						<a  href="#/fyb"class="fyb">风云榜</a>
-						<a  href="#/qyb"class="qyb">签约榜</a>
-						<a  href="#/tjb"class="tjb">推荐榜</a>
+					<div class="mod_header_search">
+						<div class="search_block">
+							<input type="text" placeholder="MADE BIGBANG" />
+							<button>
+								<i></i>
+							</button>
+						</div>
+						<div class="search_hidden">
+							<div class="search_other">
+								<div class="search_hot">
+									<dl>
+										<dt>热门搜索</dt>
+										<dd>
+											<a href="#"><span>1</span>&nbsp;&nbsp;&nbsp;BIGBANG<span>7.4万</span></a>
+											<a href="#"><span>2</span>&nbsp;&nbsp;&nbsp;DJ<span>4.8万</span></a>
+											<a href="#"><span>3</span>&nbsp;&nbsp;&nbsp;庄心妍<span>4.1万</span></a>
+											<a href="#"><span>4</span>&nbsp;&nbsp;&nbsp;女儿情<span>3.6万</span></a>
+											<a href="#"><span>5</span>&nbsp;&nbsp;&nbsp;许嵩<span>3.4万</span></a>
+										</dd>
+									</dl>
+								</div>
+								<div class="search_history">
+									<dl>
+										<dt>搜索历史<a href="#"></a></dt>
+										<dd><a href="#">MADE BIGBANG</a><a class="history_close" href="#"></a></dd>
+									</dl>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="header_opt">
+						<span>
+							<a href="#">登陆</a>
+							<a href="mmmmmmmm.html">开通绿钻豪华版</a>
+							<a href="music package.html">开通付费包</a>
+						</span>
 					</div>
 				</div>
-				<div class="man-index-hot-side"  ng-view>
-					
-					
-					
-					
-					
-					
-				</div>
-			</div>	
-			<!--排行榜结束-->
-			<!--------广告开始------>
-			<div class="man-index-gg">
-				<img src="img/man_index/3.jpg" />
-			</div>
-			<!--------广告结束------->
-			<!---------------新书抢险看开始----------->
-			
-			<div class="man-index-hot" ng-controller="shujuController">
-				<div class="man-index-hot-tit">
-					<h3>新书抢鲜</h3>
-					<span>24小时热销新书</span>
-					<a>更多
-							<i class="icon-angle-right"></i>
-					</a>
-				
-				</div>
-				<div class="man-index-new-list">
-					<ul class="man-index-new-list-ul" >
-						<li ng-repeat="item in data">
-							<a href="#">
-								<img src="img/man_index/24.jpg" />
-								<div class="man-index-new-list-xq">
-									<h4>{{item.bName}}</h4>
-									<p>{{item.desc}}</p>
-									<div class="man-index-new-list-js">
-										<div class="man-index-new-list-name">
-											<span><i></i>{{item.bAuth}}</span>
-										</div>
-										<div class="man-index-new-list-type">
-											<span>
-												<em class="man-index-new-list-type-em">{{item.cat}}</em>
-												<em class="man-index-new-list-type-em reds">{{item.state}}</em>
-												<em class="man-index-new-list-type-em blue">{{item.cnt}}</em>
-											</span>
-										</div>
-									</div>
-								</div>
-							</a>
-						</li>
-					
-		             </ul>
-		            </div>
-          	</div>
-			<!-------------------新书抢先看结束------>
-			
-			<!-----------------畅销完本开始------------->
-			<div class="man-index-hot">
-				<div class="man-index-hot-tit">
-					<h3>畅销完本</h3>
-					<span>一周热销完本书</span>
-					<a>更多
-							<i class="icon-angle-right"></i>
-					</a>
-				
-				</div>
-				<div class="man-index-new-list">
-					<ul class="man-index-new-list-ul" >
-						<li>
-							<a href="#">
-								<img src="img/man_index/32.jpg" />
-								<div class="man-index-new-list-xq">
-									<h4>小说名称</h4>
-									<p>简介</p>
-									<div class="man-index-new-list-js">
-										<div class="man-index-new-list-name">
-											<span><i></i>辰东</span>
-										</div>
-										<div class="man-index-new-list-type">
-											<span>
-												<em class="man-index-new-list-type-em">类型</em>
-												<em class="man-index-new-list-type-em reds">连载</em>
-												<em class="man-index-new-list-type-em blue">字数</em>
-											</span>
-										</div>
-									</div>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="img/man_index/32.jpg" />
-								<div class="man-index-new-list-xq">
-									<h4>小说名称</h4>
-									<p>简介</p>
-									<div class="man-index-new-list-js">
-										<div class="man-index-new-list-name">
-											<span><i></i>辰东</span>
-										</div>
-										<div class="man-index-new-list-type">
-											<span>
-												<em class="man-index-new-list-type-em">类型</em>
-												<em class="man-index-new-list-type-em reds">连载</em>
-												<em class="man-index-new-list-type-em blue">字数</em>
-											</span>
-										</div>
-									</div>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="img/man_index/32.jpg" />
-								<div class="man-index-new-list-xq">
-									<h4>小说名称</h4>
-									<p>简介</p>
-									<div class="man-index-new-list-js">
-										<div class="man-index-new-list-name">
-											<span><i></i>辰东</span>
-										</div>
-										<div class="man-index-new-list-type">
-											<span>
-												<em class="man-index-new-list-type-em">类型</em>
-												<em class="man-index-new-list-type-em reds">连载</em>
-												<em class="man-index-new-list-type-em blue">字数</em>
-											</span>
-										</div>
-									</div>
-								
-								</div>
-							</a>
-						</li>
+				<div class="mod_header_down">
+					<ul>
+						<li><a href="#">首页</a></li>
+						<li><a href="geshou.html">歌手</a></li>
+						<li><a href="zhuanji.html">专辑</a></li>
+						<li><a href="paihangbang.html">排行版</a></li>
+						<li><a href="https://y.qq.com/portal/playlist.html">分类歌曲</a></li>
+						<li><a href="MV.html">MV</a></li>
 					</ul>
-					
 				</div>
 			</div>
-			
-			<!-------------------畅销结束=--------------->
-			
-			<!---------------------二次元开始---------->
-			<div class="man-index-hot">
-				<div class="man-index-hot-tit">
-					<h3>二次元</h3>
-					
-					
-				</div>
-				<div class="man-index-hot-side">
-					<ul class="man-index-hot-side-ul" >
-						<li>
-							<a href="#">
-								<img src="img/man_index/49.jpg" />
-								<h5>变身女相师</h5>
-								<p >
-							
-									<span class="gray">墨玄君</span>
-								</p>
-								
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="img/man_index/50.jpg" />
-								<h5>名侦探世界里的巫师</h5>
-								<p >
-							
-									<span class="gray">追梦人Love平</span>
-								</p>
-								
-							</a>
-						</li><li>
-							<a href="#">
-								<img src="img/man_index/51.jpg" />
-								<h5>亡灵法师</h5>
-								<p >
-							
-									<span class="gray">若醉若离</span>
-								</p>
-								
-							</a>
-						</li><li>
-							<a href="#">
-								<img src="img/man_index/53.jpg" />
-								<h5>无限之异兽进化</h5>
-								<p >
-							
-									<span class="gray">欢声</span>
-								</p>
-								
-							</a>
-						</li><li>
-							<a href="#">
-								<img src="img/man_index/52.jpg" />
-								<h5>二次元之黑白王者</h5>
-								<p >
-							
-									<span class="gray">耶小孩</span>
-								</p>
-								
-							</a>
-						</li>
-					</ul>
-					
-				</div>
-			</div>
-			
-			<!----------------------二次元结束------------>
-			<!---------------猜你喜欢-------------------->
-			<div class="man-index-hot">
-				<div class="man-index-hot-tit">
-					<h3>猜你喜欢</h3>
-					
-					<a>
-							<i class=" icon-repeat"></i>换一批
-					</a>
-				
-				</div>
-				<div class="man-index-new-list">
-					<ul class="man-index-new-list-ul" >
-						<li>
-							<a href="#">
-								<img src="img/man_index/22.jpg" />
-								<div class="man-index-new-list-xq">
-									<h4>小说名称</h4>
-									<p>简介</p>
-									<div class="man-index-new-list-js">
-										<div class="man-index-new-list-name">
-											<span><i></i>辰东</span>
-										</div>
-										<div class="man-index-new-list-type">
-											<span>
-												<em class="man-index-new-list-type-em">类型</em>
-												<em class="man-index-new-list-type-em reds">连载</em>
-												<em class="man-index-new-list-type-em blue">字数</em>
-											</span>
-										</div>
-									</div>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="img/man_index/22.jpg" />
-								<div class="man-index-new-list-xq">
-									<h4>小说名称</h4>
-									<p>简介</p>
-									<div class="man-index-new-list-js">
-										<div class="man-index-new-list-name">
-											<span><i></i>辰东</span>
-										</div>
-										<div class="man-index-new-list-type">
-											<span>
-												<em class="man-index-new-list-type-em">类型</em>
-												<em class="man-index-new-list-type-em reds">连载</em>
-												<em class="man-index-new-list-type-em blue">字数</em>
-											</span>
-										</div>
-									</div>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="img/man_index/22.jpg" />
-								<div class="man-index-new-list-xq">
-									<h4>小说名称</h4>
-									<p>简介</p>
-									<div class="man-index-new-list-js">
-										<div class="man-index-new-list-name">
-											<span><i></i>辰东</span>
-										</div>
-										<div class="man-index-new-list-type">
-											<span>
-												<em class="man-index-new-list-type-em">类型</em>
-												<em class="man-index-new-list-type-em reds">连载</em>
-												<em class="man-index-new-list-type-em blue">字数</em>
-											</span>
-										</div>
-									</div>
-								</div>
-							</a>
-						</li>
-					</ul>
-					
-				</div>
-			</div>
-			
-			
-			<!-----------------猜你喜欢结束-------------->
-			
-			<div class="man-index-hot">
-				<div class="man-index-hot-tit">
-					<h3>精选专题</h3>
-				</div>
-				<div class="man-index-new-img">
-					<a href="#">
-							<img src="img/man_index/8.jpg" />
-						</a>
-						<a href="#">
-							<img src="img/man_index/5.jpg" />
-						</a>
-						<a href="#">
-							<img src="img/man_index/6.jpg"/>
-						</a>
-						<a href="#">
-							<img src="img/man_index/7.jpg" />
-						</a>
-						
-				</div>
-			</div>
-			
-			
-			<!-----------------------结尾部分-------------------->
-			<div class="classification-foot">
-		<strong>登录后获得更多特色功能</strong>
-		<span class="char-dot">·</span>
-		<a href="#">立即登录</a>
-		
-	</div>
-	<div class="classification-foot-link">
-		<a href="#">客户端</a>
-		<a href="#">触屏版</a>
-		<a href="#">电脑版</a>
-		<a href="#">帮助</a>
-		<a href="#">反馈</a>
-		
-	</div>
-	<div class="footer-copy">
-       copyright © 2002-2017 m.qidian.com
-    </div>
-			
-			<!---------------------结尾----------------->
-			
 		</div>
-		
+		<div class="mod_index--new">
+			<div class="new_inner mod_index">
+				<div class="new_inner_hd">
+					<h2>新歌首发</h2>
+				</div>
+				
+				<div class="new_nav">
+					<a href="#">全部</a>
+					<a href="#">华语</a>
+					<a href="#">欧美</a>
+					<a href="#">韩国</a>
+					<a class="new_all" href="#">全部></a>
+				</div>
+				<div class="new_banner">
+					<ul>
+						<li>
+							<div class="super_banner">
+								<img src="img/BANNER13.jpg" />
+								<h4><a href="#">THE STILL LIFE Deluxe Edition</a><a href="#"></a></h4>
+								
+								<div class="peaple"><a href="#">平井堅</a></div>
+							</div>
+						</li>
+						<li>
+							<div class="super_banner">
+								<img src="img/MVNEI43.jpg" />
+								<h4><a href="#">THE STILL LIFE Deluxe Edition</a><a href="#"></a></h4>
+								
+								<div class="peaple"><a href="#">平井堅</a></div>
+							</div>
+						</li>
+						<li>
+							<div class="super_banner">
+								<img src="img/BANNER12.jpg" />
+								<h4><a href="#">THE STILL LIFE Deluxe Edition</a><a href="#"></a></h4>
+								
+								<div class="peaple"><a href="#">平井堅</a></div>
+							</div>
+						</li>
+						<li>
+							<div class="super_banner">
+								<img src="img/BANNER15.jpg" />
+								<h4><a href="#">THE STILL LIFE Deluxe Edition</a><a href="#"></a></h4>
+								
+								<div class="peaple"><a href="#">平井堅</a></div>
+							</div>
+						</li>
+						<li>
+							<div class="super_banner">
+								<img src="img/BANNER12.jpg" />
+								<h4><a href="#">THE STILL LIFE Deluxe Edition</a><a href="#"></a></h4>
+								
+								<div class="peaple"><a href="#">平井堅</a></div>
+							</div>
+						</li>
+						<li>
+							<div class="super_banner">
+								<img src="img/BANNER12.jpg" />
+								<h4><a href="#">THE STILL LIFE Deluxe Edition</a><a href="#"></a></h4>
+								
+								<div class="peaple"><a href="#">平井堅</a></div>
+							</div>
+						</li>
+						<li>
+							<div class="super_banner">
+								<img src="img/BANNER12.jpg" />
+								<h4><a href="#">THE STILL LIFE Deluxe Edition</a><a href="#"></a></h4>
+								
+								<div class="peaple"><a href="#">平井堅</a></div>
+							</div>
+						</li>
+						<li>
+							<div class="super_banner">
+								<img src="img/BANNER12.jpg" />
+								<h4><a href="#">THE STILL LIFE Deluxe Edition</a><a href="#"></a></h4>
+								
+								<div class="peaple"><a href="#">平井堅</a></div>
+							</div>
+						</li>
+						<li>
+							<div class="super_banner">
+								<img src="img/BANNER12.jpg" />
+								<h4><a href="#">THE STILL LIFE Deluxe Edition</a><a href="#"></a></h4>
+								
+								<div class="peaple"><a href="#">平井堅</a></div>
+							</div>
+						</li>
+						<li>
+							<div class="super_banner">
+								<img src="img/BANNER12.jpg" />
+								<h4><a href="#">THE STILL LIFE Deluxe Edition</a><a href="#"></a></h4>
+								
+								<div class="peaple"><a href="#">平井堅</a></div>
+							</div>
+						</li>
+						<li>
+							<div class="super_banner">
+								<img src="img/BANNER12.jpg" />
+								<h4><a href="#">THE STILL LIFE Deluxe Edition</a><a href="#"></a></h4>
+								
+								<div class="peaple"><a href="#">平井堅</a></div>
+							</div>
+						</li>
+						<li>
+							<div class="super_banner">
+								<img src="img/BANNER12.jpg" />
+								<h4><a href="#">THE STILL LIFE Deluxe Edition</a><a href="#"></a></h4>
+								
+								<div class="peaple"><a href="#">平井堅</a></div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="new_slide">
+					<a href="#"><i></i></a>
+					<a href="#"><i></i></a>
+					<a href="#"><i></i></a>
+				</div>
+			</div>
+			<div class="new_bottom">
+				<div class="new_buleft">
+					<a href="#"><img src="img/mod-newright.png"/></a>
+				</div>
+				<div class="new_buright">
+					<a href="#"><img src="img/mod-newleft.png"/></a>
+				</div>
+			</div>
+		</div>
+		<div class="mod_index--event">
+			<div class="mod_index event_inner">
+				<div class="new_inner_hd">
+					<h2>精彩推荐</h2>
+				</div>
+				<div class="event_banner">
+					<ul>
+						<li id="li1"><a href="index.html#"><img src="img/BANNER1.jpg"/></a></li>
+						<li id="li2"><a href="index.html#"><img src="img/BANNER2.jpg"/></a></li>
+						<li id="li3"><a href="index.html#"><img src="img/BANNER3.jpg"/></a></li>
+						<li id="li4"><a href="index.html#"><img src="img/BANNER4.jpg"/></a></li>
+						<li id="li5"><a href="index.html#"><img src="img/BANNER5.jpg"/></a></li>
+						<li id="li6"><a href="index.html#"><img src="img/BANNER6.jpg"/></a></li>
+						<li id="li7"><a href="index.html#"><img src="img/BANNER7.jpg"/></a></li>
+						<li id="li8"><a href="index.html#"><img src="img/BANNER8.jpg"/></a></li>
+					</ul>
+				</div>
+				<div class="new_slide">
+					<a href="#"><i></i></a>
+					<a href="#"><i></i></a>
+					<a href="#"><i></i></a>
+					<a href="#"><i></i></a>
+					<a href="#"><i></i></a>
+					<a href="#"><i></i></a>
+					<a href="#"><i></i></a>
+					<a href="#"><i></i></a>
+					<a href="#"><i></i></a>
+				</div>
+				
+			</div>
+			<div class="new_bottom">
+					<div class="new_buleft">
+						<a><img src="img/mod-newright.png"/></a>
+					</div>
+					<div class="new_buright">
+						<a><img src="img/mod-newleft.png"/></a>
+					</div>
+			</div>
+		</div>
+		<div class="toplist_box">
+			<div class="box_inner mod_index">
+				<div class="new_inner_hd">
+					<h2>排行版</h2>
+				</div>
+				<a href="#" class="box_all">全部></a>
+				<ul class="box_ul">
+					<li class="box_li">
+						<div class="box_inner_bg img_change"></div>
+						<i></i>
+						<s class="miuse_change"></s>
+						<h3>
+							<span>巅峰榜</span>
+							<div>流行指数</div>
+						</h3>
+						<ul class="topliet_songlist">
+							<li>
+								<div class="box_num">1</div>
+								<div class="box_songname"><a href="#">FXXK IT (에라 모르겠다)</a></div>
+								<div class="box_songer"><a href="#"></a>BIGBANG (빅뱅)</div>
+							</li>
+							<li>
+								<div class="box_num">2</div>
+								<div class="box_songname"><a href="#">LAST DANCE</a></div>
+								<div class="box_songer"><a href="#"></a>BIGBANG (빅뱅)</div>
+							</li>
+							<li>
+								<div class="box_num">3</div>
+								<div class="box_songname"><a href="#">GIRLFRIEND</a></div>
+								<div class="box_songer"><a href="#"></a>BIGBANG (빅뱅)</div>
+							</li>
+							<li>
+								<div class="box_num">4</div>
+								<div class="box_songname"><a href="#">十年</a></div>
+								<div class="box_songer"><a href="#"></a>梁朝伟/李宇春</div>
+							</li>
+						</ul>
+					</li>
+					<li class="box_li">
+						<div class="box_inner_bg img_change"></div>
+						<i></i>
+						<s class="miuse_change"></s>
+						<h3>
+							<span>巅峰榜</span>
+							<div>热歌</div>
+						</h3>
+						<ul class="topliet_songlist">
+							<li>
+								<div class="box_num">1</div>
+								<div class="box_songname"><a href="#">演员</a></div>
+								<div class="box_songer"><a href="#"></a>薛之谦</div>
+							</li>
+							<li>
+								<div class="box_num">2</div>
+								<div class="box_songname"><a href="#">告白气球</a></div>
+								<div class="box_songer"><a href="#"></a>周杰伦</div>
+							</li>
+							<li>
+								<div class="box_num">3</div>
+								<div class="box_songname"><a href="#">丑八怪</a></div>
+								<div class="box_songer"><a href="#"></a>薛之谦</div>
+							</li>
+							<li>
+								<div class="box_num">4</div>
+								<div class="box_songname"><a href="#">Alone</a></div>
+								<div class="box_songer"><a href="#"></a>Alan Walker</div>
+							</li>
+						</ul>
+					</li>
+					<li class="box_li">
+						<div class="box_inner_bg img_change"></div>
+						<i></i>
+						<s class="miuse_change"></s>
+						<h3>
+							<span>巅峰榜</span>
+							<div>新歌</div>
+						</h3>
+						<ul class="topliet_songlist">
+							<li>
+								<div class="box_num">1</div>
+								<div class="box_songname"><a href="#">十年</a></div>
+								<div class="box_songer"><a href="#"></a>梁朝伟/李宇春</div>
+							</li>
+							<li>
+								<div class="box_num">2</div>
+								<div class="box_songname"><a href="#">燃烧</a></div>
+								<div class="box_songer"><a href="#"></a>乔任梁</div>
+							</li>
+							<li>
+								<div class="box_num">3</div>
+								<div class="box_songname"><a href="#"认定</a></div>
+								<div class="box_songer"><a href="#"></a>金志文</div>
+							</li>
+							<li>
+								<div class="box_num">4</div>
+								<div class="box_songname"><a href="#">全世界都在说东北话</a></div>
+								<div class="box_songer"><a href="#"></a>DBboys组合</div>
+							</li>
+						</ul>
+					</li>
+					<li class="box_li">
+						<div class="box_inner_bg img_change"></div>
+						<i></i>
+						<s class="miuse_change"></s>
+						<h3>
+							<span>巅峰榜</span>
+							<div>欧美</div>
+						</h3>
+						<ul class="topliet_songlist">
+							<li>
+								<div class="box_num">1</div>
+								<div class="box_songname"><a href="#">Alone</a></div>
+								<div class="box_songer"><a href="#"></a>Alan Walker</div>
+							</li>
+							<li>
+								<div class="box_num">2</div>
+								<div class="box_songname"><a href="#">Starboy</a></div>
+								<div class="box_songer"><a href="#"></a>The Weeknd/Daft Punk</div>
+							</li>
+							<li>
+								<div class="box_num">3</div>
+								<div class="box_songname"><a href="#">Can't Take My Eyes Off You x MAKE UP FOR EVER</a></div>
+								<div class="box_songer"><a href="#"></a>Jessie J</div>
+							</li>
+							<li>
+								<div class="box_num">4</div>
+								<div class="box_songname"><a href="#">On The Edge</a></div>
+								<div class="box_songer"><a href="#"></a>Far East Movement/曲婉婷</div>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="taogelist_box">
+			<div class="taogelist_inner mod_index">
+				<div class="new_inner_hd">
+					<h2>热门歌单</h2>
+				</div>
+				<div class="taogelist_banner">
+					<ul class="clearfix">
+						<li class="taogelist_li">
+							<div class="taolist_pic">
+								<img src="img/BANNER17.jpg" />
+								<s class="miuse_change"></s>
+								<h4><a href="#">人人都爱安静的歌</a><a href="#"></a></h4>
+								<div class="taolist_play">播放量：5.3万</div>
+							</div>
+						</li>
+						<li class="taogelist_li">
+							<div class="taolist_pic">
+								<img src="img/MVNEI35.jpg" />
+								<s class="miuse_change"></s>
+								<h4><a href="#">控制不住身体左右左右！QQ飞车BGM精选</a><a href="#"></a></h4>
+								<div class="taolist_play">播放量：4.2万</div>
+							</div>
+						</li>
+						<li class="taogelist_li">
+							<div class="taolist_pic">
+								<img src="img/BANNER14.jpg" />
+								<s class="miuse_change"></s>
+								<h4><a href="#">华语治愈：小酌一杯属于你的简单爱</a><a href="#"></a></h4>
+								<div class="taolist_play">播放量：3.3万</div>
+							</div>
+						</li>
+						<li class="taogelist_li">
+							<div class="taolist_pic">
+								<img src="img/BANNER13.jpg" />
+								<s class="miuse_change"></s>
+								<h4><a href="#">吟一首后摇之诗『人声后摇』</a><a href="#"></a></h4>
+								<div class="taolist_play">播放量：6.1万</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="new_slide">
+					<a href="#"><i></i></a>
+					<a href="#"><i></i></a>
+					<a href="#"><i></i></a>
+				</div>
+			</div>
+			<div class="taogelist_bottom">
+				<div class="taogelist_buleft">
+					<a href="#"><img src="img/mod-newright.png"/></a>
+				</div>
+				<div class="taogelist_buright">
+					<a href="#"><img src="img/mod-newleft.png"/></a>
+				</div>
+			</div>
+		</div>
+		<div class="mod_index--mv">
+			<div class="mv_inner mod_index">
+				<div class="new_inner_hd">
+					<h2>MV首播</h2>
+				</div>
+				<div class="mv_nav">
+					
+						<a href="#">全部</a>
+						<a href="#">内部</a>
+						<a href="#">港台</a>
+						<a href="#">欧美</a>	
+						<a href="#">韩国</a>
+						<a href="#">日本</a>
+					
+				<a href="#" class="mv_all">全部></a>
+				</div>
+				<ul class="mv_banner">
+					<li>
+						<div class="mv_pic">
+							<img src="img/MVNEI15.jpg"/>
+							<i class="miuse_change"></i>
+						</div>
+						<h3 class="mv_songname"><a href="#">狂吃狂吃</a></h3>
+						<p class="mv_songer"><a href="#">大张伟</a></p>
+						<div class="mv_play"><i></i>2.9万</div>
+					</li>
+					<li>
+						<div class="mv_pic">
+							<img src="img/MVNEI26.jpg"/>
+							<i class="miuse_change"></i>
+						</div>
+						<h3 class="mv_songname"><a href="#">single boy 单身男</a></h3>
+						<p class="mv_songer"><a href="#">尚雯婕</a></p>
+						<div class="mv_play"><i></i>4.1万</div>
+					</li>
+					<li>
+						<div class="mv_pic">
+							<img src="img/MVALL5.jpg"/>
+							<i class="miuse_change"></i>
+						</div>
+						<h3 class="mv_songname"><a href="#">你明明就很在乎我</a></h3>
+						<p class="mv_songer"><a href="#">庄心妍</a></p>
+						<div class="mv_play"><i></i>3.1万</div>
+					</li>
+					<li>
+						<div class="mv_pic">
+							<img src="img/MVALL2.jpg"/>
+							<i class="miuse_change"></i>
+						</div>
+						<h3 class="mv_songname"><a href="#">Blame</a></h3>
+						<p class="mv_songer"><a href="#">Bastille</a></p>
+						<div class="mv_play"><i></i>1.5万</div>
+					</li>
+					<li>
+						<div class="mv_pic">
+							<img src="img/MVNEI12.jpg"/>
+							<i class="miuse_change"></i>
+						</div>
+						<h3 class="mv_songname"><a href="#">A Lovely Night</a></h3>
+						<p class="mv_songer"><a href="#">Ryan Gosling</a></p>
+						<div class="mv_play"><i></i>7453</div>
+					</li>
+					<li>
+						<div class="mv_pic">
+							<img src="img/MVNEI11.jpg"/>
+							<i class="miuse_change"></i>
+						</div>
+						<h3 class="mv_songname"><a href="#">Party</a></h3>
+						<p class="mv_songer"><a href="#">Chris Brown</a></p>
+						<div class="mv_play"><i></i>3509</div>
+					</li>
+					<li>
+						<div class="mv_pic">
+							<img src='img/MVNEI14.jpg'/>
+							<i class="miuse_change"></i>
+						</div>
+						<h3 class="mv_songname"><a href="#">独孤求帅</a></h3>
+						<p class="mv_songer"><a href="#">宋宇宁</a></p>
+						<div class="mv_play"><i></i>1.5万</div>
+					</li>
+					<li>
+						<div class="mv_pic">
+							<img src="img/MVALL3.jpg"/>
+							<i class="miuse_change"></i>
+						</div>
+						<h3 class="mv_songname"><a href="#">A-Lin《随心所遇》音乐宣传影片</a></h3>
+						<p class="mv_songer"><a href="#">A-Lin</a></p>
+						<div class="mv_play"><i></i>6166万</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="mod_index footer_main">
+				<div class="footer_main_up">
+					<div class="footer_main_upl">
+						<h3>下载QQ音乐客户端</h3>
+						<ul class="noneleft">
+							<li><a href="#"><i class="footer_list_item"></i>PC版</a></li>
+							<li><a href="#"><i class="footer_list_item"></i>Mac版</a></li>
+							<li><a href="#"><i class="footer_list_item"></i>Android版</a></li>
+							<li><a href="#"><i class="footer_list_item"></i>iphone版</a></li>
+						</ul>
+					</div>
+					<div class="footer_main_upm">
+						<h3>特色产品</h3>
+						<ul class="noneleft">
+							<li><a href="#"><i class="footer_list_item"></i>全民K歌</a></li>
+							<li><a href="super-sound.html"><i class="footer_list_item"></i>Super Sound</a></li>
+							<li><a href="#"><i class="footer_list_item"></i>QPlay</a></li>
+							<li class="other_li"><a href="#">QQ音乐原创音乐平台</a></li>
+							<li class="other_li"><a href="#">车载互联</a></li>
+							<li class="other_li"><a href="#">QQ演出</a></li>
+						</ul>
+					</div>
+					<div class="footer_main_upr">
+						<h3>合作连接</h3>
+						<ul>
+							<li><a href="#">CJ E&M</a></li>
+							<li><a href="#">腾讯视频</a></li>
+							<li><a href="#">手机QQ空间</a></li>
+							<li><a href="#">最新版QQ</a></li>
+							<li><a href="#">腾讯社交广告</a></li>
+							<li><a href="#">电脑管家</a></li>
+							<li><a href="#">QQ浏览器</a></li>
+							<li><a href="#">画报</a></li>
+							<li><a href="#">黄钻活动</a></li>
+							<li><a href="#">星钻</a></li>
+							<li><a href="#">腾讯微云</a></li>
+							<li><a href="#">更多</a></li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="footer_main_down">
+					<p>
+						<a href="#">关于腾讯</a>|
+						<a href="#">About Tencent</a>|
+						<a href="#">服务条款</a>|
+						<a href="#">用户服务协议</a>|
+						<a href="#">广告服务</a>|
+						<a href="#">腾讯招聘</a>|
+						<a href="#">客服中心</a>|
+						<a href="#">网站导航</a>|
+						
+					</p>
+					<p>Copyright © 1998 - 2016 Tencent. <a href="#">All Rights Reserved.</a></p>
+					<p>腾讯公司 <a href="#">版权所有</a> <a href="#">腾讯网络文化经营许可证</a></p>
+				</div>
+			</div>
+		</div>
 		<script type="text/javascript" src="js/index.js" ></script>
-		<script type="text/javascript" src="js/common.js" ></script>
-		<script type="text/javascript" src="js/angular.js" ></script>
-		<script type="text/javascript" src="js/angular-route.js" ></script>
-		<script type="text/javascript" src="fy/fy.js" ></script>
-		<script type="text/javascript" src="qy/qy.js" ></script>
-		<script type="text/javascript" src="rx/rx.js" ></script>
-		<script type="text/javascript" src="tj/tj.js" ></script>
-		<script type="text/javascript" src="app.js" ></script>
-		
-		
 	</body>
 </html>
