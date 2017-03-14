@@ -1,0 +1,1 @@
+var otherApp=angular.module("otherApp",[])
