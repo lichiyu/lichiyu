@@ -1,0 +1,41 @@
+<video id="videoId" ng-src="{{trustSrc(daurl)}}" controls autoplay="autoplay" loop="loop" style="display: none;"></video>
+<div class="flex_box">
+	<div class="song_info">
+		<span class="album_cover">
+			<img class="album_cover__img" ng-src="https://y.gtimg.cn/music/photo_new/T002R150x150M000{{data.data.songinfo.albummid}}.jpg?max_age=2592000">
+		</span>
+		<div class="song_info__flex">
+			<h1 class="song_name"><span class="song_name__text">{{data.data.songinfo.songname}}</span></h1>
+			<p class="singer_name"><span class="singer_name__text">{{data.data.info[0].content[0].value}}</span></p>
+		</div>
+
+		<a class="icon_play" href="javascript:;" ng-click="iconPlay()"><p id="playP"></p></a>
+	</div>
+
+		
+	<div class="flex_item">
+		<div class="lyric" id="lyric">
+			<div class="lyric__box" style="overflow: hidden;">
+				<div class="lyric__text" id="lyric_txt" >
+					<p  ng-repeat="item in locetex track by $index"><!--{{item.split(']')[0].split('.')[0].split("[")[1]}}-->{{item}}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="bg_image" style="background-image: url(https://y.gtimg.cn/music/photo_new/T002R150x150M000{{data.data.songinfo.albummid}}.jpg?max_age=2592000)"></div>
+<div class="bg_mask" style="opacity:0.6;"></div>
+<!--动画-->
+<div id="loading" ng-if="ngIf">
+<div id="loading-center">
+<div id="loading-center-absolute">
+<div class="object" id="object_four"></div>
+<div class="object" id="object_three"></div>
+<div class="object" id="object_two"></div>
+<div class="object" id="object_one"></div>
+</div>
+</div>
+</div>
+
+

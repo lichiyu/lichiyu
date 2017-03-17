@@ -1,1 +1,0 @@
-var proApp=angular.module("proApp",[])

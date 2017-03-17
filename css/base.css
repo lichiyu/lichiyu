@@ -1,0 +1,28 @@
+body,html,div,img,span,h1,h2,h3,h4,h5,h6,p,ul,li,a{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+    min-width: 320px;
+    height: 100%;
+    position: relative;
+    font-size: 16px;
+    font-family: "微软雅黑",arial,sans-serif;
+}
+body{
+	overflow-x: hidden;
+}
+a{
+	text-decoration: none;
+	color: #333333;
+}
+li{
+	list-style-type: none;
+}
+.f{
+	float: left;
+}
+input{
+	outline-style: none;
+}

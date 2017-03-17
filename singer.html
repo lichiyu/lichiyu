@@ -1,0 +1,38 @@
+<div class="header">
+	<span></span>
+</div>
+<nav class="nav">
+	<a href="#/carousel" class="">推荐</a>
+	<a href="#/rankinglist" class="">排行榜</a>
+	<a href="#/singer" class="current">歌手</a>
+	<a href="#/search" class="">搜索</a>
+</nav>
+<div class="singer_bd">
+		<ul class="singer-class-list" ng-repeat="item in lists">
+			<li>
+				<a href="#/singer/{{item.all}}">
+					<i class="singer-list-arrow"></i>
+					{{item.name}}
+				</a>
+			</li>
+		</ul>
+</div>
+
+<!--底部-->
+<div class="footer">
+	<div class="footer_logo"><p>QQ音乐</p></div>
+	<p class="footer_copyright">Copyright © 1998 - 2016 Tencent. All Rights Reserved.</p>
+</div>
+<!--底部-->
+
+<!--动画-->
+<div id="loading" ng-if="ngIf">
+<div id="loading-center">
+<div id="loading-center-absolute">
+<div class="object" id="object_four"></div>
+<div class="object" id="object_three"></div>
+<div class="object" id="object_two"></div>
+<div class="object" id="object_one"></div>
+</div>
+</div>
+</div>

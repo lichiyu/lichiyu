@@ -1,28 +1,66 @@
+<!--               _ooOoo_ 
+                  o8888888o 
+                  88" . "88 
+                  (| -_- |) 
+                  O\  =  /O 
+               ____/`---'\____ 
+             .'  \\|     |//  `. 
+            /  \\|||  :  |||//  \ 
+           /  _||||| -:- |||||-  \ 
+           |   | \\\  -  /// |   | 
+           | \_|  ''\---/''  |   |                               
+           \  .-\__  `-`  ___/-. / 
+         ___`. .'  /--.--\  `. . __ 
+      ."" '<  `.___\_<|>_/___.'  >'"". 
+     | | :  `- \`.;`\ _ /`;.`/ - ` : | | 
+     \  \ `-.   \_ __\ /__ _/   .-` /  / 
+======`-.____`-.___\_____/___.-`____.-'====== 
+                   `=---=' 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+             佛祖保佑       永无BUG-->
 <!DOCTYPE html>
 <html>
-
 	<head>
 		<meta charset="utf-8" />
-		<title></title>
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-		<link rel="stylesheet" href="css/index.css" />
-		<link rel="stylesheet" href="Font-Awesome-3.2.1/css/font-awesome.css" />
-		
+		<title>QQ音乐 - 中国最新最全免费正版高品质音乐平台！</title>
+		<link rel="icon" href="icon.ico" />
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/carousel.css"/>
+		<link rel="stylesheet" type="text/css" href="css/rankinglist.css"/>
+		<link rel="stylesheet" type="text/css" href="css/categorylist.css"/>
+		<link rel="stylesheet" type="text/css" href="css/song.css"/>
+		<link rel="stylesheet" type="text/css" href="css/search.css"/>
+		<link rel="stylesheet" type="text/css" href="css/singer.css"/>
+		<link rel="stylesheet" type="text/css" href="css/singerRanking.css"/>
+		<link rel="stylesheet" type="text/css" href="css/singerDetailed.css"/>
+		<link rel="stylesheet" type="text/css" href="css/hotlist.css"/>
 	</head>
-
-			<body ng-app="jianliApp">
-				<div class="warp" ng-view>
+	<body ng-app="myApp">
 		
-						
-				</div>
-				<script type="text/javascript" src="js/angular.js" ></script>
-				<script type="text/javascript" src="js/angular-route.js" ></script>
-				<script type="text/javascript" src="js/homepage.js" ></script>
-				<script type="text/javascript" src="js/skill.js" ></script>
-				<script type="text/javascript" src="js/pro.js" ></script>
-				<script type="text/javascript" src="js/other.js" ></script>
-				<script type="text/javascript" src="js/contact.js" ></script>
-				<script type="text/javascript" src="js/index.js" ></script>
-			</body>
+		<div class="content" ng-view>
 
+		</div>
+		
+		
+		
+		<script src="js/angular.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/angular-route.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jsonp.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	</body>
 </html>
+<!--动画-->
+<div id="loading" ng-if="ngIf">
+<div id="loading-center">
+<div id="loading-center-absolute">
+<div class="object" id="object_four"></div>
+<div class="object" id="object_three"></div>
+<div class="object" id="object_two"></div>
+<div class="object" id="object_one"></div>
+</div>
+</div>
+</div>
+
+
